@@ -1,0 +1,6 @@
+print(" Exercício 2-Números pares de 0 a 20")
+print("Crie um programa que imprima todos os números pares de 0 a 20.")
+
+for num in range(21):
+    if (num%2==0):
+        print(num)
