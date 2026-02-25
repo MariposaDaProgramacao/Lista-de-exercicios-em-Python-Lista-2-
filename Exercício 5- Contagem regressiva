@@ -1,0 +1,6 @@
+print("Exercício 5- Contagem regressiva")
+print("Crie um programa que faça uma contagem regressiva de 10 a 1 e depois imprima Fogo")
+
+for i in range(10,0,-1):
+    print(i)
+print("Fogo!")
