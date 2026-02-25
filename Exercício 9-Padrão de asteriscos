@@ -1,0 +1,7 @@
+print("Exercício 9-Padrão de asteriscos ")
+print("Faça um programa que crie um triângulo de asteriscos com 5 linhas.")
+
+linha=6
+
+for i in range(1,linha):
+    print("*"*i)
