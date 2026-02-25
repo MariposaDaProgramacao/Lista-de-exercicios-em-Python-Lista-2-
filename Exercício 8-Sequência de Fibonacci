@@ -1,0 +1,10 @@
+print("Exercício 8-Sequência de Fibonacci ")
+print("Crie um programa que gere os primeiros 10 números da sequência de Fibonacci.")
+
+num=10
+fb=[0,1]
+
+for i in range(2,num):
+    proximo=fb[i-1]+fb[i-2]
+    fb.append(proximo)
+    print(f"Sequencia de Fibonacci {fb}")
