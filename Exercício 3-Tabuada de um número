@@ -1,0 +1,9 @@
+print("Exercício 3-Tabuada de um número")
+print("Desenvolva um programa que mostre a tabuada de um número específico (por exemplo, 5) de 1 a 10. ")
+
+num=int(input("Qual número vc quer saber a tabuada?"))
+
+for cont in range(11):
+    resposta=num*cont
+    print(f"{num} x {cont} = {resposta}")
+    
