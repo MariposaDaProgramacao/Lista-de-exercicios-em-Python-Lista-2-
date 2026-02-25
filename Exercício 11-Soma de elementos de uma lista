@@ -1,0 +1,9 @@
+print("Exercício 11-Soma de elementos de uma lista ")
+print("Escreva um programa que calcule a soma de todos os elementos de uma lista de números.")
+
+num=[10,20,30,40,50]
+soma=0
+
+for numero in num:
+    soma+=numero
+print(f"A soma dos elemnteos da lista é {soma}")
