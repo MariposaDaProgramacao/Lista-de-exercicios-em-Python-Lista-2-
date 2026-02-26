@@ -1,0 +1,17 @@
+print("Exercício 15-Contar ocorrências")
+print("Escreva um programa que conte quantas vezes cada elemento aparece em uma lista.")
+
+#Lista com elementos repetidos
+lista=['a','b','c','a','b','a','d']
+
+#Dicionario vazio onde cada elemento e contado 
+contagem={}
+
+for elemento in lista:
+    #se o elemento já estiver no dicionario soma +1
+    if elemento in contagem:
+        contagem[elemento]+=1
+    else:
+        contagem[elemento]=1
+print("Contagem de elementos")
+print(contagem)
