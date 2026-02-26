@@ -1,0 +1,11 @@
+print("Exercício 14- Inverter uma lista ")
+print("Faça um programa que inverta os elementos de uma lista sem usar métodos builtin. ")
+
+lista_1=[1,2,3,4,5]
+lista_2=[]
+
+for cont in range(len(lista_1)-1,-1,-1):
+    lista_2.append(lista_1[cont])
+
+print(f"Lista original{lista_1}")
+print(f"Lista original{lista_2}")
